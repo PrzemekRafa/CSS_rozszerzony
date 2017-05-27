@@ -7,3 +7,13 @@
     content: " po elemencie";
     color: green;
 }
+
+#first-letter p::first-letter {
+    color: orangered;
+    font-size: 30px;
+}
+
+#first-line p::first-line {
+    color: darkgreen;
+    background-color: lightgreen
+}
