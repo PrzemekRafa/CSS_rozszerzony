@@ -147,3 +147,15 @@ input[type] {
     background-color: green;
     
 }
+
+/* Właściwości tła */
+#background {
+    width: 1200px;
+    height: 800px;
+    margin: 10px auto;
+    background-image: url(https://cdn.yamaha-motor.eu/product_assets/2016/XS850/950-75/2016-Yamaha-XSR900-EU-Garage-Metal-AccessorizedStatic-003.jpg);
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-attachment: scroll;
+    background-size: cover:
+}
