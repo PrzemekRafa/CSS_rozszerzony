@@ -115,3 +115,35 @@ input[type] {
 #attributes a[title$="treści"] {
     font-style: italic;
 }
+
+/* FLOATONG */
+#floating > div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+/*
+.clear {
+    clear: left;
+}
+*/
+
+#floating .clear {
+    clear: both;
+}
+
+/* TRANSITIONS */
+#transitions .hovered {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    transition: all 3s ease-in-out;
+    
+}
+
+#transitions .hovered:hover {
+    background-color: green;
+    
+}
