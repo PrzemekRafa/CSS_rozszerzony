@@ -41,9 +41,77 @@
 }
 
 :target {
-    background-color: blueviolet
+    background-color: blueviolet;
 }
 
 #lang p:lang(en) {
     background-color: aqua;
+}
+
+#childs .lista li:first-child {
+    background-color: hotpink;
+}
+
+#childs .lista li:last-child {
+    background-color: deeppink;
+}
+
+div span:only-child {
+    background-color: mediumaquamarine;
+}
+
+div:empty {
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+}
+
+#kolejne_dzieci ul li:nth-child(3) {
+    background-color:  brown;
+}
+
+#kolejne_dzieci ul li:nth-child(even) {
+    color:  crimson;
+}
+
+#kolejne_dzieci ul li:nth-child(odd) {
+    color: darkturquoise;
+}
+
+#kolejne_dzieci ul li:nth-child(3n+2) {
+    font-size: 30px;
+}
+
+#kolejne_dzieci_odtylu ul li:nth-last-child(3) {
+    font-size: 50px;
+    background-color: bisque;
+}
+
+#kolejne_dzieci_odtylu ul li:nth-last-child(3n+2) {
+    font-size: 75px;
+}
+
+/* Selektory atrybutów */
+input[type="text"] {
+    border: 10px solid hotpink;
+}
+
+input[type] {
+    background-color: aquamarine
+}
+
+#attributes a[title~="opis"] {
+    font-size: 40px;
+}
+
+#attributes a[title*="link"] {
+    color: darksalmon;
+}
+
+#attributes a[title^="treść"] {
+    background-color: beige;
+}
+
+#attributes a[title$="treści"] {
+    font-style: italic;
 }
