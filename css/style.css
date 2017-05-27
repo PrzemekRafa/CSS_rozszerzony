@@ -1,0 +1,9 @@
+#before .pierwszy::before {
+    content: "przed elementem ";
+    color: red;
+}
+
+#after .drugi::after {
+    content: " po elemencie";
+    color: green;
+}
